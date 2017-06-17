@@ -1,0 +1,27 @@
+{
+  "name": "alexa-skill-introduction",
+  "version": "0.0.1",
+  "description": "An introduction to alexa skill develpment.",
+  "main": "lib/index.js",
+  "config": {
+    "app": "lib/index.js"
+  },
+  "scripts": {
+    "test": "node testflow.js"
+  },
+  "author": "Andrew Rapo <andrew@worthwhilegames.org> (http://worthwhilegames.org)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/alexa-sdk": "^1.1.0",
+    "@types/node": "^7.0.30",
+    "alexa-sdk": "^1.0.10",
+    "aws-sdk": "^2.67.0"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "introduction"
+  ]
+}
